@@ -1,0 +1,26 @@
+::selection {
+	color: $text-color;
+	background-color: $color-secondary;
+}
+
+
+body {
+	background-color: $bg-primary;
+	color: $text-color;
+	// font-family: $font-primary;
+}
+
+a {
+	color: $color-primary;
+
+	&:hover {
+		color: $color-primary;
+		text-decoration: none;
+	}
+}
+
+
+
+.container-xxl {
+	max-width: 1820px;
+}
