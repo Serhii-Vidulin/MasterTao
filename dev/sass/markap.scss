@@ -6,6 +6,7 @@
 
 .color-item-1 {
 	background-color: $color-primary;
+	height: 100px;
 }
 
 .color-item-2 {
@@ -35,4 +36,17 @@
 
 .wf-700 {
 	font-weight: 700;
+}
+
+.markap{
+	position: fixed;
+	left: 10px;
+	bottom: 100px;
+	display: inline-block;
+	padding: 15px 40px;
+	background-color: rgb(40, 40, 40);
+	border-radius: 15px;
+	text-decoration: none;
+	color: $text-color;
+
 }
