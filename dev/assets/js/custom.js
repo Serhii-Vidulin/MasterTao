@@ -1,12 +1,11 @@
 
 
-$( document ).ready(function() {
-	console.log( "ready!" );
+$(document).ready(function () {
+	console.log("ready!");
 	$('.single-item').slick();
 
-	Fancybox.bind('[data-fancybox="gallery"]', {
-	
-	 });
-
+	Fancybox.bind("[data-fancybox]", {
+		// Your custom options
+	});
 
 });
