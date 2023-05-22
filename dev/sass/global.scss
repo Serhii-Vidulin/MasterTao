@@ -1,3 +1,28 @@
+.git {
+	position: fixed;
+	left: 10px;
+	bottom: 45px;
+	display: inline-block;
+	padding: 15px 40px;
+	background-color: rgb(40, 40, 40);
+	border-radius: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.container {
+	max-width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container-xxl {
+	max-width: 1820px;
+}
+
 ::selection {
 	color: $text-color;
 	background-color: $color-secondary;
@@ -225,6 +250,8 @@ h6,
 	line-height: 146%;
 	border-radius: 90px;
 	padding: 13px 17px;
+	display: inline-flex;
+	align-items: center;
 
 	&:hover {
 		.icon {
@@ -258,6 +285,7 @@ h6,
 .btn-lg {
 	padding: 19.6px 34px;
 	font-size: 16px;
+
 
 	.icon {
 		margin: 0 -14px 0 47px;
