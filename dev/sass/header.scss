@@ -11,6 +11,8 @@ header {
 
 	.nav-link {
 		color: #fff;
+		margin-top: 4px;
+		padding: 10px;
 
 
 		&:hover,
@@ -20,7 +22,7 @@ header {
 	}
 
 	.navbar-nav {
-		max-width: 618px;
+		max-width: 650px;
 		width: 100%;
 		display: flex;
 		justify-content: space-around;
