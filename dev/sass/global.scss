@@ -21,7 +21,7 @@
 }
 
 .container-xxl {
-	max-width: 1850px ;
+	max-width: 1850px;
 }
 
 ::selection {
@@ -249,7 +249,8 @@ h6,
 	display: inline-flex;
 	align-items: center;
 	white-space: nowrap;
-	
+	font: unset;
+
 	&:hover {
 		.icon {
 			filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(49deg) brightness(180%) contrast(101%);
@@ -262,6 +263,7 @@ h6,
 .btn-primary {
 	background-color: $color-primary;
 	border-color: $color-primary;
+	font-style: normal !important;
 
 	&:hover {
 		background-color: $color-secondary;
@@ -270,6 +272,7 @@ h6,
 }
 
 .btn-secondary {
+	font-style: normal !important;
 	background-color: transparent;
 	border-color: $color-primary;
 
@@ -280,6 +283,7 @@ h6,
 }
 
 .btn-lg {
+	font-style: normal !important;
 	padding: 19.6px 34px;
 	font-size: 16px;
 
@@ -290,4 +294,98 @@ h6,
 		height: 27px;
 		transition: .3s;
 	}
+}
+
+// SECTION
+section {
+	max-width: 1920px;
+	margin: 0 auto $section-margin_lg;
+
+	&:last:last-of-type {
+		margin-bottom: 56px;
+	}
+
+	&:nth-child(odd) {
+		.template-title {
+			&::before {
+				background-color: $color-primary;
+			}
+		}
+	}
+
+	&.container-fluid {
+		position: relative;
+		padding: 90px 85px 100px;
+
+		&:before {
+			content: "";
+			position: absolute;
+			height: 100%;
+			top: 0;
+			left: 50px;
+			right: 50px;
+			background-color: $bg-secondary;
+			border-radius: 20px;
+			z-index: -1;
+		}
+	}
+}
+
+.template-title {
+	text-align: center;
+	position: relative;
+	padding-bottom: 18px;
+	margin-bottom: 50px;
+
+	&:before {
+		content: "";
+		position: absolute;
+		left: 50%;
+		top: calc(100% - 2px);
+		transform: translate(-50%, 0);
+		width: 82px;
+		height: 2px;
+		background-color: $color-secondary;
+	}
+
+	h2 {
+		line-height: 124.5%;
+		text-transform: uppercase;
+		font-size: 36px;
+		margin-bottom: 6px;
+	}
+
+	h3 {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 125%;
+	}
+
+	// type #2 TEXT LEFT
+	&.text-left,
+	&.col-md-7 {
+		text-align: left;
+
+		&:before {
+			left: 0;
+			transform: none;
+		}
+	}
+
+	// type #3 
+	&.col-md-7 {
+		i {
+			width: 82px;
+			height: 2px;
+			background-color: $color-secondary;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+
+		&:before {
+			display: none;
+		}
+
+	}
+
 }

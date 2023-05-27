@@ -25,7 +25,7 @@
 
 	.slick-slide {
 		margin: 0 10px;
-		padding: 165px 0 228px;
+		padding: 165px 92px 228px;
 		border-radius: 20px;
 		background-position: center;
 		background-size: cover;
@@ -70,23 +70,25 @@
 
 	.container-arrows {
 		position: absolute;
-		max-width: 1523px;
+		max-width: 1565px;
 		width: 100%;
 		top: 50%;
 		left: 50%;
-		transform: translate(-50%,-24px);
-	
+		transform: translate(-50%, -47px);
+
 		display: flex;
 		justify-content: space-between;
 		height: 0;
 	}
+
 	.slick-prev {
 		transform: rotate(-180deg)
 	}
+
 	.slick-arrow {
 		font-size: 0;
-		width: 46px;
-		height: 46px;
+		width: 92px;
+		height: 92px;
 		transition: .4s;
 		background-color: transparent;
 		border: none;
@@ -98,6 +100,6 @@
 			background-image: url("data:image/svg+xml,%3Csvg width='23' height='42' viewBox='0 0 23 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.49612 40.9364C2.21085 41.2217 1.85426 41.3643 1.46202 41.3643C1.06977 41.3643 0.713178 41.2217 0.427907 40.9364C-0.142636 40.3659 -0.142636 39.4388 0.427907 38.8682L18.614 20.6822L0.427907 2.49612C-0.142636 1.92558 -0.142636 0.99845 0.427907 0.427907C0.99845 -0.142636 1.92558 -0.142636 2.49612 0.427907L21.7163 19.6481C22.2868 20.2186 22.2868 21.1457 21.7163 21.7163L2.49612 40.9364V40.9364Z' fill='%2389C249'/%3E%3C/svg%3E ");
 		}
 
-		
+
 	}
-	}
+}

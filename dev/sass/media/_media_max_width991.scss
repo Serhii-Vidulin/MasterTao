@@ -1,4 +1,5 @@
 @media screen and (max-width: 991px) {
+
 	.container {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -60,16 +61,17 @@
 			max-width: 295px;
 		}
 
-	
+
 
 		.slick-list {
-			border-radius: 0 !important;
-			margin: 0 -22px;
+			border-radius: 0;
+			margin: 0;
 		}
 
 		.slick-slide {
+			margin: 0;
 			padding: 26vh 0 228px;
-			border: 0 !important;
+			border-radius: 0;
 			height: calc(100vh - 72px);
 
 			&::before {
@@ -87,5 +89,97 @@
 			z-index: 2;
 			position: relative;
 		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	footer {
+		padding: 0 20px;
+	
+		.footer-wrapper {
+			display: flex;
+			justify-content: center;
+			padding: 41px 0 29px;
+			text-align: center;
+			align-content: center;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+
+
+
+		.footer_addres {
+			color: #FFFFFF;
+			max-width: 263px;
+
+			& a {
+				font-size: 14px;
+				line-height: 165.5%;
+			}
+		}
+
+		& picture {
+			img {
+				margin-bottom: 26px;
+			}
+		}
+
+		.footer-link {
+			display: none;
+		}
+
+		.footer_social {
+			margin-top: 18px;
+
+			img {
+				margin-right: 2px;
+			}
+		}
+
+
+
+
+		// полоска оранжевая
+		.container {
+			position: relative;
+
+
+
+			&:after {
+				content: "";
+				position: absolute;
+				bottom: 100%;
+				left: 0;
+				width: 100%;
+				height: 2px;
+				background-color: $color-primary;
+
+			}
+		}
+
+
 	}
 }
