@@ -1,7 +1,7 @@
 .git {
 	position: fixed;
 	left: 10px;
-	bottom: 45px;
+	bottom: 400px;
 	display: inline-block;
 	padding: 15px 40px;
 	background-color: rgb(40, 40, 40);
@@ -305,7 +305,7 @@ section {
 		margin-bottom: 56px;
 	}
 
-	&:nth-child(odd) {
+	&:nth-child(even) {
 		.template-title {
 			&::before {
 				background-color: $color-primary;
