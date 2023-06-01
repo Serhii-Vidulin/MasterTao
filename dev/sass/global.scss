@@ -305,9 +305,9 @@ section {
 		margin-bottom: 56px;
 	}
 
-	&:nth-child(even) {
+	&:nth-child(odd) {
 		.template-title {
-			&::before {
+			&::after {
 				background-color: $color-primary;
 			}
 		}
@@ -337,7 +337,7 @@ section {
 	padding-bottom: 18px;
 	margin-bottom: 50px;
 
-	&:before {
+	&:after {
 		content: "";
 		position: absolute;
 		left: 50%;
@@ -366,7 +366,7 @@ section {
 	&.col-md-7 {
 		text-align: left;
 
-		&:before {
+		&:after {
 			left: 0;
 			transform: none;
 		}
@@ -374,18 +374,28 @@ section {
 
 	// type #3 
 	&.col-md-7 {
-		i {
-			width: 82px;
-			height: 2px;
-			background-color: $color-secondary;
-			margin-bottom: 10px;
-			display: inline-block;
+		margin-bottom: 33px;
+		h2 {
+		
+			&::after {
+				content: "";
+				position: static;
+				width: 82px;
+				height: 2px;
+				background-color: $color-secondary;
+				margin: 10px;
+				display: inline-block;
+			}
 		}
 
-		&:before {
+		&::after {
 			display: none;
 		}
 
 	}
 
+}
+
+.padding-top {
+	padding-top: 29px;
 }

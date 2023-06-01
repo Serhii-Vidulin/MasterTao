@@ -24,3 +24,19 @@ $(document).ready(function () {
 	});
 
 });
+
+function checkboxPadding() {
+	const checkboxBnt = document.querySelectorAll(".check-button")
+	checkboxBnt.forEach(item => {
+		item.closest("[class*=col]").classList.add("padding-top")
+	})
+
+}
+
+if (document.querySelector(".calculation-form ")) {
+	console.log("table")
+	checkboxPadding()
+} else {
+	console.log("no table")
+	null;
+}

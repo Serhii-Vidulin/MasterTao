@@ -1,3 +1,35 @@
 @media screen and (max-width: 575px) {
-    
+	section {
+		max-width: 1920px;
+		margin: 0 auto $section-margin_lg;
+	
+		&:last:last-of-type {
+			margin-bottom: 56px;
+		}
+	
+		&:nth-child(odd) {
+			.template-title {
+				&::after {
+					background-color: $color-primary;
+				}
+			}
+		}
+	
+		&.container-fluid {
+			position: relative;
+			padding: 54px 0 60px;
+	
+			&:before {
+				content: "";
+				position: absolute;
+				height: 100%;
+				top: 0;
+				left: 0;
+				right: 0;
+				background-color: $bg-secondary;
+				border-radius: 0;
+				z-index: -1;
+			}
+		}
+	}
 }
