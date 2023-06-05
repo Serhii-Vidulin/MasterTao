@@ -2,11 +2,11 @@
 	section {
 		max-width: 1920px;
 		margin: 0 auto $section-margin_lg;
-	
+
 		&:last:last-of-type {
 			margin-bottom: 56px;
 		}
-	
+
 		&:nth-child(odd) {
 			.template-title {
 				&::after {
@@ -14,11 +14,11 @@
 				}
 			}
 		}
-	
+
 		&.container-fluid {
 			position: relative;
 			padding: 54px 0 60px;
-	
+
 			&:before {
 				content: "";
 				position: absolute;
@@ -32,4 +32,18 @@
 			}
 		}
 	}
+
+
+
+	.btn-lg {
+		width: 100%;
+
+
+		.icon {
+			margin: 0 -14px 0 auto;
+
+		}
+	}
+
+
 }

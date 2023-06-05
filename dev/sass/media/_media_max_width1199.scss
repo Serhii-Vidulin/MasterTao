@@ -4,15 +4,34 @@
 			background-position: 20px;
 		}
 	}
+
+	.calculation {
+		.container {
+			&:after {
+				right: 0;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 1199px) {
 
+	.template-title {
+		h3 {
+			font-size: 16px;
+		}
+	}
 
 	// section partnership_section ------
 
 	.partnership_section {
+	
 
+		.partnership_section-left {
+			.partnership-img_fancyboxs {
+				margin-bottom: 36px;
+			}
+		}
 
 
 		.partnership_section-right,
@@ -30,7 +49,7 @@
 			button {
 				display: flex;
 				text-align: center;
-				margin: 48px auto 0;
+				
 
 			}
 
@@ -56,7 +75,9 @@
 
 			.partnership-content {
 				p {
-					padding: 0 0 30px;
+					padding: 0 0px 14px;
+					word-spacing: -0.4px;
+					line-height: 138.5%;
 				}
 			}
 

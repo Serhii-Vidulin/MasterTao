@@ -363,7 +363,7 @@ section {
 
 	// type #2 TEXT LEFT
 	&.text-left,
-	&.col-md-7 {
+	&.col-lg-7 {
 		text-align: left;
 
 		&:after {
@@ -373,10 +373,11 @@ section {
 	}
 
 	// type #3 
-	&.col-md-7 {
+	&.col-lg-7 {
 		margin-bottom: 33px;
+
 		h2 {
-		
+
 			&::after {
 				content: "";
 				position: static;

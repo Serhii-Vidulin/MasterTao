@@ -1,3 +1,170 @@
+// footer {
+// 	background: $bg-primary;
+// 	margin-top: 56px;
+
+
+// 	.footer-wrapper {
+// 		padding: 41px 0 59px;
+// 		display: flex;
+
+// 		.left {
+// 			padding-left: 69px;
+// 		}
+
+// 		.middle {
+// 			margin-left: 34px;
+// 		}
+
+// 		.right {
+// 			padding-left: 30px;
+// 		}
+// 	}
+
+
+
+// 	.footer_addres {
+// 		max-width: 263px;
+
+// 		.footer-email {
+// 			position: relative;
+// 			display: inline-block;
+
+// 			&::before {
+// 				content: "";
+// 				position: absolute;
+// 				bottom: 2px;
+// 				left: 0;
+// 				width: 100%;
+// 				height: 1px;
+// 				background-color: #85899C;
+// 				transition: .5s;
+// 			}
+// 		}
+
+// 		.footer-email:hover::before {
+// 			bottom: 2px;
+// 			left: 0;
+// 			width: 0;
+// 			height: 1px;
+// 			background-color: #85899C;
+// 		}
+
+// 		& ul {
+// 			padding-left: 0;
+
+// 			li {
+// 				text-decoration: none;
+// 				list-style: none;
+
+// 				& a {
+// 					text-decoration: none;
+// 					color: #FFFFFF;
+// 					cursor: pointer;
+// 					display: block;
+// 					font-size: 14px;
+// 					line-height: 165.5%;
+// 				}
+// 			}
+// 		}
+// 	}
+
+// 	& picture {
+// 		img {
+// 			margin-bottom: 26px;
+// 		}
+// 	}
+
+// 	.footer-link {
+
+// 		& h5 {
+// 			margin-top: -3px;
+
+// 		}
+
+// 		.footer-wrapper_link {
+// 			max-width: 130px;
+
+// 			& a {
+// 				text-decoration: none;
+// 				display: inline-block;
+// 				margin-top: 3px;
+// 				font-size: 16px;
+// 				line-height: 188.5%;
+// 				position: relative;
+// 				color: #85899C;
+// 				white-space: nowrap;
+
+// 				&:hover {
+// 					color: #FFFFFF;
+// 				}
+
+// 				&::before {
+// 					content: "";
+// 					position: absolute;
+// 					bottom: 6px;
+// 					left: 0;
+// 					width: 100%;
+// 					height: 1px;
+// 					background-color: #85899C;
+// 					transition: .5s;
+// 				}
+
+// 			}
+// 		}
+
+// 		.footer-wrapper_link a:hover::before {
+
+// 			bottom: 6px;
+// 			left: 0;
+// 			width: 0;
+// 			height: 1px;
+// 			background-color: #85899C;
+// 		}
+
+// 	}
+
+
+
+// 	.footer_social {
+// 		cursor: pointer;
+// 		margin-top: 18px;
+// 		transition: .5s;
+
+// 		img {
+// 			margin-right: 5px;
+
+// 			&:hover {
+// 				transform: scale(.9);
+// 			}
+// 		}
+
+// 	}
+
+
+
+
+// 	// полоска оранжевая
+// 	.container {
+// 		position: relative;
+
+
+
+// 		&:after {
+// 			content: "";
+// 			position: absolute;
+// 			bottom: 100%;
+// 			left: 0;
+// 			width: 100%;
+// 			height: 2px;
+// 			background-color: $color-primary;
+
+// 		}
+// 	}
+
+
+// }
+
+
 footer {
 	background: $bg-primary;
 	margin-top: 56px;

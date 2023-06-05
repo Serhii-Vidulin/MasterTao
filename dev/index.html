@@ -6,9 +6,9 @@
 	@@include('templates/first-screen.html')
 
 	<!-- SECTION #1 -->
-	<section>
+	<section class="calculation">
 		<div class="container">
-			<div class="template-title col-md-7">
+			<div class="template-title col-lg-7">
 				<h2>Получить рассчет стоимости доставки вашего груза </h2>
 			</div>
 			<form class="calculation-form">
@@ -21,7 +21,7 @@
 					</div>
 					<div class="col-md-6">
 						<div class="input-box">
-							<label for="cargo">Стоимость груза:</label>
+							<label for="cargo">Вес груза (кг):</label>
 							<input type="number" id="cargo" name="cargo" placeholder="Введите вес">
 						</div>
 
@@ -31,7 +31,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="input-box">
-							<label for="weight">Вес груза (кг):</label>
+							<label for="weight">Стоимость груза:</label>
 							<input type="number" id="weight" name="weight" placeholder="Введите стоимость">
 						</div>
 					</div>
@@ -63,8 +63,28 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">file</div>
+					<div class="col-md-12">
+						<div id="file-name">
+							Имя Ващего файла
+						</div>
+						<div class="file-row">
+							<label class="label-file" for="fileInput">Загрузить фото товара</label>
+							<input class="input-file" id="fileInput" name="fileInput" type="file">
+							<div class="file-row__text">
+								Загрузить фото товара
+							</div>
+						</div>
+					</div>
 				</div>
+
+
+
+
+
+
+
+
+
 				<div class="row">
 					<div class="col-md-12">
 						<button type="button" class="btn btn-primary btn-lg">Следующий шаг
@@ -77,44 +97,96 @@
 	</section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- SECTION #2 -->
-	<section class="container-fluid">
+	<section class="container-fluid advantages">
 		<div class="container">
 			<div class="template-title">
 				<h2>Почему стоит выбрать именно нас?</h2>
 			</div>
+
+			<div class="advantages-slider row ">
+				<div class="col-lg-3">
+					<div class="advantages-item">
+						<div class="advantages-img">
+							<img src="./assets/img/advantages-1.svg" alt="">
+						</div>
+						<div class="advantages-title">
+							<h6>Таможенное оформление груза</h6>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-2.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Страховка груза</h6>
+					</div>
+				</div></div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-3.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Проверка товара на брак</h6>
+					</div>
+				</div></div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-4.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Доставка в любой город Украины</h6>
+					</div>
+				</div></div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-5.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Консолидация на складе</h6>
+					</div>
+				</div></div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-6.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Ответственное хранение груза</h6>
+					</div>
+				</div></div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-7.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Помощь в оплате товара</h6>
+					</div>
+				</div></div>
+				<div class="col-lg-3"><div class="advantages-item">
+					<div class="advantages-img">
+						<img src="./assets/img/advantages-8.svg" alt="">
+					</div>
+					<div class="advantages-title">
+						<h6>Упаковка, переупаковка, паллетирование груза к международной перевозке</h6>
+					</div>
+				
+			</div>
+
 		</div>
 	</section>
+
+
+
+
 	<!-- SECTION #3 -->
 	<section>
 		<div class="container">
 			<div class="template-title">
 				<h2>Варианты доставки грузов из Китая</h2>
 			</div>
+
+
 		</div>
 	</section>
 	<!-- SECTION #4 -->
@@ -149,7 +221,7 @@
 				<h2>Готовы к сотрудничеству?</h2>
 				<h3>Зарегистрируйте груз!</h3>
 			</div>
-			
+
 			<div class="row">
 				<div class="partnership_section-left">
 					<div class="col-md-6">
