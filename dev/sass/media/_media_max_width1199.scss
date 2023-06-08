@@ -25,7 +25,7 @@
 	// section partnership_section ------
 
 	.partnership_section {
-	
+
 
 		.partnership_section-left {
 			.partnership-img_fancyboxs {
@@ -49,7 +49,7 @@
 			button {
 				display: flex;
 				text-align: center;
-				
+
 
 			}
 
@@ -107,4 +107,22 @@
 	}
 
 
+}
+
+
+@media screen and (max-width: 1400px) {
+	.slider-template {
+		margin: 0 auto;
+		max-width: 780px;
+
+		.slick-arrow {
+			&.slick-next {
+				right: -80px;
+			}
+
+			&.slick-prev {
+				left: -80px;
+			}
+		}
+	}
 }

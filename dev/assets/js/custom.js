@@ -84,4 +84,47 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
 	});// Mobile Only Slider
 
 
-} 
+}
+
+$('.slider-template').slick({
+	dots: false,
+	speed: 300,
+	arrows: true,
+	
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	responsive: [{
+		breakpoint: 1400,
+		settings: {
+			slidesToShow: 2,
+			arrows: true,
+		}
+	},
+	{
+		breakpoint: 991,
+		settings: {
+			slidesToShow: 1,
+
+		}
+	},
+	{
+		breakpoint: 575,
+		settings: {
+			slidesToShow: 1,
+			arrows: false,
+			dots: true,
+		}
+	}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	]
+});
+
+// $('.navbar-toggler').on('click', function(){
+//   $('.navbar').toggleClass('margin-bottom')
+// })
+
+
+
+

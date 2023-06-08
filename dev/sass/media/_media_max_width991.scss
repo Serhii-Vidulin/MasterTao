@@ -5,6 +5,20 @@
 		margin-bottom: 56px;
 	}
 
+	section {
+
+		&.container-fluid,
+		&.advantages.container-fluid {
+			padding: 55px 0 60px;
+
+			&::before {
+				left: 0;
+				right: 0;
+				border-radius: 0;
+			}
+		}
+	}
+
 	.container {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -164,7 +178,24 @@
 	}
 
 
+	// section 3 ---advantages
 
+	.advantages {
+		.slick-list {
+			padding-top: 12px;
+		}
+
+		.advantages-title {
+			max-width: 263px;
+			margin: 0 auto;
+		}
+	}
+
+
+	// Section .slider-template 
+	.slider-template {
+		max-width: 390px;
+	}
 
 
 
@@ -202,13 +233,14 @@
 			flex-direction: column;
 			align-items: center;
 			text-align: center;
+
 			.footer-link {
 				display: none;
 			}
-		
+
 		}
-		
-	
+
+
 
 		.footer_addres {
 			color: #FFFFFF;
@@ -261,4 +293,3 @@
 	}
 
 }
-

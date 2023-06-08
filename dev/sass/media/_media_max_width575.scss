@@ -46,4 +46,41 @@
 	}
 
 
+
+	.dilivery {
+
+
+		.slider-template__btn-row {
+			padding: 0 15px;
+
+			.btn {
+				white-space: nowrap;
+				width: 138px;
+			}
+		}
+
+		.slider-template__img-box {
+			margin-bottom: 42px;
+		}
+
+	}
+
+
+	.slider-template {
+		max-width: 337px;
+
+		.slick-slide {
+			padding: 0 0 27px;
+
+			&:after {
+				left: 0;
+				right: 0;
+			}
+		}
+
+		.slick-dots {
+			margin-top: 33px;
+		}
+	}
+
 }
