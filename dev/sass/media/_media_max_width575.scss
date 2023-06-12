@@ -83,4 +83,21 @@
 		}
 	}
 
+	.services {
+		.slider-template {
+			.slick-slide {
+				&::before {
+					left: 0;
+					right: 0;
+				}
+
+			}
+
+			&__img-box {
+				right: 0;
+				left: 0;
+			}
+		}
+	}
+
 }

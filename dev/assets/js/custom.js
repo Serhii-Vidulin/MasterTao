@@ -112,6 +112,7 @@ $('.slider-template').slick({
 		settings: {
 			slidesToShow: 1,
 			arrows: false,
+			fade: true,
 			dots: true,
 		}
 	}
